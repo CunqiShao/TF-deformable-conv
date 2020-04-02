@@ -238,5 +238,5 @@ def main():
                 saver.save(sess, os.path.join(
                     ckpt_dir, "model.ckpt"), global_step=i)
 
-
+print('hello world')
 main()
